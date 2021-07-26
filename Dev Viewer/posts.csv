@@ -1,0 +1,42 @@
+mskog/visual-studio-code-plugins-for-ruby-2096,Visual Studio Code plugins for Ruby and Rails,"A quick list of all the plugins I use for Ruby on Rails development.
+
+You will need this for syntax support and such so this is a must have.
+
+This one is a must have. It will enable ""Go to definition"" in Ruby for all classes, modules and methods. It also has context-aware code completion and documentation. Extremely handy. If you only choose one of the plugins on this list(except for the Ruby one) then make it this one. It is quite something!
+
+If you use Rubocop then this extension will let your format your code using Rubocop. This is highly recommended as it will enforce a consistent style in your code. Especially if you are working in a team.
+
+Pro tip: If you use Spring then you can use spring-commands-rubocop to make a binstub for Rubocop and then it will run much faster. You will need to set the ""ruby.rubocop.executePath"" setting in VSCode to ""bin/"" for this to work properly.
+
+If you are using the default Rails way of organizing directories and such then this plugin can make navigating your application a breeze. You can use it to quickly navigate between controller actions, model, views and even specs.
+
+This will enable the use of ""Go to definition"" in VSCode for view partials. Very handy for quickly navigating through a complex view structure.
+
+This is a simple extension that will open the latest migration in your application. I use it all the time so it is absolutely worth having.
+
+If you use RSpec then this is a handy extension. It will make it very easy to add focus: true to your specs to run only that spec.
+
+Quickly toggle ERB tags in your views. Will save you quite a bit of typing.
+
+Syntax support for Haml.
+
+This uses the haml-lint gem to help you make your Haml code clean and consistent.
+
+Add end automatically to methods and statements.
+
+If you use the Dash documentation browser for Mac then you can use this extension to quickly jump to the documentation for any class or method.
+
+Quickly jump to the open file on Github.
+
+This will copy the relative path of any file as defined by the project root. Great for doing things like running a specific spec and such.
+
+Will add intellisense for any CSS class in your project, even those defined in external style sheets like Bootstrap.
+
+No-nonsense formatter for HTML, CSS, Javascript and more. It is opinionated and does not allow for much configuration. It is perfect if you want something simple and don't want to fiddle with configuration files.
+
+Another formatter. This one is a ""meta formatter"" that uses other formatters. You can thus use Prettier for CSS and something else for HTML, all managed by Unibeautify. This is also the only formatter that I know of that does a decent job of handling ERB templates. Use the Pretty diff formatter for ERB templates and you will have a pretty good time.
+
+Vim
+This will essentially turn VSCode into VIM for editing. I gave this a shot and didn't look back. It might take you a couple of weeks to get proficient with it but after that you'll be golden. This is in my opinion an excellent plugin and it will make you a lot more efficient. Check out this article for a very good introduction to this plugin.
+
+There you go! Those are all my plugins for Ruby on Rails development. Did I miss one? Let me know on Twitter!",Magnus Skog,false
