@@ -2,7 +2,7 @@
  * @param {number} x
  * @return {boolean}
  */
-var isPalindrome = function (x) {
+const isPalindrome = function (x) {
   //chars into array
   let array = x.toString().split("");
   //get array length then and check if odd array or even
