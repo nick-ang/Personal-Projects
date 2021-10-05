@@ -21,7 +21,7 @@ var twoSum = function (nums, target) {
   }
 };
 
-// Key is to subtract from the target
+// Key is to subtract from the target and use a hashmap and map the value to the index
 
 const array = [2, 7, 11, 15];
 const target = 9;
