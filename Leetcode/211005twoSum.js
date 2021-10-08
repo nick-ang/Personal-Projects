@@ -1,15 +1,15 @@
-// const twoSum = (array, target) => {
-//   const result = [];
-//   for (let i = 0; i < array.length; i += 1) {
-//     for (let j = i + 1; j < array.length; j += 1) {
-//       if (array[i] + array[j] === target) {
-//         result.push(j);
-//         result.push(i);
-//       }
-//     }
-//   }
-//   return result;
-// };
+const twoSum = (array, target) => {
+  const result = [];
+  for (let i = 0; i < array.length; i += 1) {
+    for (let j = i + 1; j < array.length; j += 1) {
+      if (array[i] + array[j] === target) {
+        result.push(j);
+        result.push(i);
+      }
+    }
+  }
+  return result;
+};
 
 var twoSum = function (nums, target) {
   var mapping = {};
